@@ -1,0 +1,10 @@
+{
+   "pathfinder" : {
+      "username":"PFInterface",
+      "password":"PFInterface",
+      "host":"127.0.0.1"
+   },
+   "http": {
+      "endpoint":"http://localhost:8080"
+   }
+}

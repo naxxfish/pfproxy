@@ -1,0 +1,9 @@
+{
+   'pathfinder' : {
+      'username':"PFInterface",
+      'password':"PFInterface"
+   },
+   'http': {
+      'endpoint':"http://localhost/"
+   }
+}

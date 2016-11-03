@@ -1,0 +1,35 @@
+{
+  "name": "pfproxy",
+  "version": "0.1.0",
+  "description": "An adaptor for PathfinderPC that does a HTTP post when events occur ",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run test-unit",
+    "test-unit": "NODE_ENV=test mocha '*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naxxfish/pfproxy.git"
+  },
+  "keywords": [
+    "pathfinderpc",
+    "axia"
+  ],
+  "author": "Chris Roberts",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/naxxfish/pfproxy/issues"
+  },
+  "homepage": "https://github.com/naxxfish/pfproxy#readme",
+  "dependencies": {
+    "nconf": "^0.8.4",
+    "pfint": "0.0.6",
+    "request": "^2.76.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "^2.8.0"
+  }
+}
